@@ -1,12 +1,21 @@
+function isDivisibleBy3(number) {
+    return number % 3 === 0;
+}
+
+function isDivisibleBy5(number) {
+    return number % 5 === 0;
+}
+
+
 function fizzBuzz(number) {
-    if(number % 3 === 0 && number % 5 === 0){
+    if(isDivisibleBy3(number) && isDivisibleBy5(number)){
         return 'fizzbuzz';
     }
-    if(number % 5 === 0){
+    if(isDivisibleBy5(number)){
         return 'buzz';
     }
 
-    if(number % 3 === 0){
+    if(isDivisibleBy3(number)){
         return 'fizz';
     }
     
