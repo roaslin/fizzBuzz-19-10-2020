@@ -14,3 +14,7 @@ test('should print the number 2 as string', () => {
 test('should print fizz if it is divisible by 3', () => {
   expect(fizzBuzz(3)).toBe('fizz');
 });
+
+test('should print fizz if 6 it is divisible by 3', () => {
+  expect(fizzBuzz(6)).toBe('fizz');
+});
