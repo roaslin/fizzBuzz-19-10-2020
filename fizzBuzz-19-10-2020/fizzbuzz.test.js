@@ -22,3 +22,7 @@ test('should print fizz if 6 it is divisible by 3', () => {
 test('should print buzz if 5 is divisible by 5', () => {
   expect(fizzBuzz(5)).toBe('buzz');
 });
+
+test('should print fizzbuzz if 15 is divisible by 5 and 3', () => {
+  expect(fizzBuzz(15)).toBe('fizzbuzz');
+});
