@@ -6,3 +6,7 @@ const fizzBuzz = require('./fizzbuzz');
 test('should print the number 1 as string', () => {
   expect(fizzBuzz(1)).toBe('1');
 });
+
+test('should print the number 2 as string', () => {
+  expect(fizzBuzz(2)).toBe('2');
+});
